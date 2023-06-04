@@ -2,3 +2,9 @@ body {
     margin: 0;
     padding: 50px;
 }
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: lightblue;
+}

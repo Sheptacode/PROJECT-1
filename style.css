@@ -48,18 +48,23 @@ nav {
 
 a:hover {
     color: #14f304b4;
+    transition: 0.5s;
 }
 /* AKHIR STYLE NAVBAR */
 
 /* poster */
-
 .poster {
     text-align: center;
 }
-
-
 .poster img {
-    width: 1100px;
-    height: 400px;
+    width: 900px;
 }
+
 /* AKHIR POSTER */
+
+/*style image*/
+.image img {
+    width: 150px;
+    display: inline-block;
+}
+/*akhir style image*/

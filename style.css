@@ -6,5 +6,25 @@ body {
 nav {
     width: 100%;
     height: auto;
-    background-color: lightblue;
+    border-bottom: 1px solid black;
+}
+
+
+.SMAFTI {
+    width: 80px;
+}
+
+
+.TELKOM {
+    width: 80px;
+    position: relative;
+    bottom: 6px;
+    right: 15px;
+}
+
+.SMK {
+    width: 100px;
+    position: relative;
+    right: 28px;
+    bottom: 10px;
 }

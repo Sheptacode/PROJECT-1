@@ -19,9 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
     padding: 3px 50px;
-    border-bottom: 2px #04f800 solid;
     color: #000;
 }
 
@@ -29,12 +27,9 @@ nav ul  {
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 25px;
 }
 
-li {
-    width: 70px;
-}
 
 li a {
     font-size: 1.1rem;
@@ -45,9 +40,13 @@ li a {
 }
 
 li a:hover  {
-    color: #f1c40f;
-    border-bottom: 4px #f1c40f solid;
-    transition: 0.5s;
+    color: #03fc28;
+    border-bottom: 3px #03fc28 solid;
+    transition: 0.3s;
 }
 
 /*akhir style navbar*/
+
+/*style poster*/
+
+/*akhir style poster*/

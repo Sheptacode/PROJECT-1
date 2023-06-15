@@ -1,7 +1,7 @@
 *   {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: 'RobotoSlab', sans-serif;
     text-decoration: none;
 }
@@ -61,7 +61,7 @@ li a:hover  {
 
     .lines  {
         display: block;
-        background-color: #fff;
+        background-color: #47f811;
         height: 2px;
         width: 35px;
     }

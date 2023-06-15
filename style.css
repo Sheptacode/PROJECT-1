@@ -73,7 +73,37 @@ li a:hover  {
 
     nav {
         position: relative;
-        
+        padding: 15px 20px;
+    }
+
+    ul {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -300px;
+        right: 0;
+        background-color: #f1c40f;
+        padding: 35px 0;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.363);
+    }
+
+    li a {
+        color: rgba(12, 11, 11, 0.836);
+    }
+
+    li {
+        text-align: center;
+        width: 90vw;
+    }
+
+    li a:hover {
+        font-weight: bold;
+        color: #191e24;
+        border: none;
+        letter-spacing: 3px;
     }
 }
 
